@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Página Pessoal</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1> CodeLab - WebDev </h1>
+<button id="alterna"> Dark Mode </button>
+<div id="shortcuts">
+ <a href="https://codepen.io/jppaulo06/pen/eYPJmWW"> Material da Aula </a> <br/>
+<a href="#About Me"> Seção Pessoal </a></br>
+<a href="#Resumo Aula"> Resumos </a>
+</div> 
+
+<section>
+    <h3> Sobre mim: </h3> 
+      <div class="cartao"> <ul> 
+        <li><b>Nome:</b> Giovanna Uchôa</li>
+        <li><b>Idade:</b> 18 anos</li>
+        <li><b>Semestre:</b> 1º</li>
+        <li><b>Curso:</b> Bacherelado em Ciência da Computação</li>
+        <li><b>Faculdade:</b> IME-USP</li></ul> 
+      <a href="https://open.spotify.com/user/jzf6wi40b82rysokvbfg1l7d0?si=65821f6a6eb542a4" class="foto_esquerda"> 
+        <img id="spotify" src="https://i.pinimg.com/564x/27/e5/0d/27e50d2182ade85110c80e6f6424da80.jpg"/>
+      </a>
+    </div>
+    <h3>Contato e Redes</h3> 
+    <ol>
+      <li><b>E-mail institucional: </b>giovannauchoa@usp.br</li></br>
+      <li> 
+        <div class="cartao">
+          <div>
+            <b> Github: </b> </br>       
+            <b> User: </b><span id="user"> giovannauchoagomes </span> </br>
+            <b> Nome: </b><span id="nome"></span></br>
+            <a id="link"> Acesse Aqui!</a>
+            </div>
+          <img id ="foto_perfil" class="foto_esquerda"/>
+        </div>
+      </li> </ol>
+ </section>
+
+ <section id="Resumo Aula">
+    <h3> O que aprendi: </h3> <ul class=colunas>
+     <li class=aulas>
+       <b> Aula 1 - HTML</b></br>
+        <b>Tópicos</b> <ol>
+          <li>Anatomia e Atributos</li>
+            <ul>
+              <li>Tags abre e fecha contém a abertura e fechamento e o conteúdo.</li>
+              <li>O conjuto que representa uma tag é um elemento.</li>
+              <li>Cada tag pode ter como atributo uma id, forma que nos refenrenciaremos posteriromente a ela.</li>
+              <li>Podemos concatenar tags.</li>
+            </ul>
+          <li>Tags autocontidas</li>
+            <ul>
+              <li> Tag para quebrar linha: <"br/"> </li>
+              <li> Tag para inserir imagem <"img height= width= src=/"></li>
+            </ul>
+          <li>Tags abre e fecha</li>
+            <ul>
+              <li> <b>Negrito</b> </li>
+              <li> <i>Itálico</i> </li>
+              <li> Listas ordenadas: "ol"; não ordenadas:"ul"; itens:"li" </li>
+              <li> Anchor para hypertextos: "a"</li>
+              <li> Tamanhos de header: h1-h6</li>
+              <li> Parágrafos:"p" </li>
+              <li> <button> Botão </button> </li>
+              <li> Divisória e Seções: "div", "section"</li>
+            </ul>   
+       </ol>
+   </li>
+     <li class=aulas>
+     <b> Aula 2 - CSS </b> </br></br>
+     <ol> <li>Introdução a
+      modificação de tags, classes e categorias de itens, exemplos de modificações: <ul>
+     <li> color: #ffffff; </li>
+       <li> background-color: white;</li>
+       <li> border: 1px solid black; </li>
+       <li> border-radius: 5px; </li>
+       <li> width: 10vw; </li>
+       <li> display: flex; </li>
+       <li> flex-wrap: wrap; </li>
+       <li> padding: 1em; </li>
+       <li> display: flex; </li>
+       <li> transform: scale(1.5); </li>
+       <li> position: sticky; </li>
+       <li> transition: 0.5s; </li>
+       </li></ul>
+      </br> <li> Como modificar de animações,pseudo-classes como :hover, :visited, :link e :active. </br> Construção: selector:pseudo-class. </li> </li>
+   </ul>
+  </section>
+   
+<section>
+    <h3>Bibliografia: </h3>
+   <ul>
+  <li><a href="https://www.w3schools.com/tags/"> W3 </a></li>
+  <li><a href="https://developer.mozilla.org/" > MDN </a></li>
+   </ul>
+</section>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
