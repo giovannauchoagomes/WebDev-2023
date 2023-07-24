@@ -3,7 +3,7 @@ const btn = document.querySelector("#alterna");
 
 btn.addEventListener("click", function() {
     body.classList.toggle("darkmode");
-    var txt = btn.innerText;
+    let txt = btn.innerText;
     if(txt == "Dark Mode"){
       btn.innerText = 'Light Mode';
       btn.style.borderColor = "gray";
