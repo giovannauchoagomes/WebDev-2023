@@ -23,5 +23,3 @@ function is_even(number){
 		return true;
 	}
 }
-
-alert(add(1,2))
