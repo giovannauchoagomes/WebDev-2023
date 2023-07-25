@@ -16,7 +16,7 @@ function div(first, second){
 }
 
 function is_even(number){
-	if(number % 2 == 1){
+	if(Math.abs(number) % 2 == 1){
 		return false;
 	}
 	else{
